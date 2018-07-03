@@ -16,6 +16,7 @@ import{AngularFireAuthModule} from 'angularfire2/auth';
 import{AngularFireModule} from 'angularfire2';
 import { AngularFirestoreModule } from 'angularfire2/firestore';
 import { PrivadoPageComponent } from './componentes/privado-page/privado-page.component';
+import { ErrorPageComponent } from './componentes/error-page/error-page.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { PrivadoPageComponent } from './componentes/privado-page/privado-page.co
     HomePageComponent,
     NavbarComponent,
     RegisterPageComponent,
-    PrivadoPageComponent
+    PrivadoPageComponent,
+    ErrorPageComponent
   ],
   imports: [
     BrowserModule,
